@@ -1,3 +1,5 @@
+# The Docker image that will be used to build your app
+image: nybot
 pages:
   stage: deploy
   script:
@@ -9,3 +11,4 @@ pages:
     - public
   only:
   - master
+
