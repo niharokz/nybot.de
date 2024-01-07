@@ -1,16 +1,100 @@
 <!DOCTYPE html>
-<html lang="en-IN" data-theme="dark">
-
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>nihar's page on the internet</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYBOT.DE - Website Under Construction</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 1600 900'%3E%3Cpath d='M782.3 141.9l3.9 7.4 7.9-1.2-3.3 7.6 5.3 6.4-7.1 3.7.6 8-7-4.4-7 4.4.6-8-7.1-3.7 5.3-6.4-3.3-7.6 7.9 1.2z' fill='%23fff'/%3E%3C/svg%3E") repeat;
+      color: #ffd700;
+      line-height: 1.6;
+      text-align: center;
+    }
 
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #8b0000;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      border-bottom: 2px solid #ffd700;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background-color: #000080;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px dashed #ffd700;
+    }
+
+    .marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+      margin-top: 20px;
+    }
+
+    .marquee-content {
+      display: inline-block;
+      animation: marquee 15s linear infinite;
+      color: #00ff00;
+    }
+
+    @keyframes marquee {
+      from { transform: translateX(100%); }
+      to { transform: translateX(-100%); }
+    }
+
+    .expanded-content {
+      padding: 20px;
+      text-align: left;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-20px); }
+      60% { transform: translateY(-10px); }
+    }
+
+    .fun-text {
+      animation: bounce 3s infinite;
+    }
+  </style>
+</head>
 <body>
-<header>
-    <p>
-        This is <a href="nih.ar">nihar's</a> workspace.
-    </p>
-</header>
+  <div class="container">
+    <h1>NYBOT.DE</h1>
+    <div class="expanded-content">
+      <p>Welcome to our website!</p>
+      <p>We are currently working hard to bring you an amazing online experience. The future of web development holds exciting possibilities - from improved user experiences to innovative technologies like AI and AR making their way into web applications.</p>
+      <p>Our goal is to create a platform that embraces technological advancements and focuses on accessibility and inclusivity for all users.</p>
+      <p>Contact us at <a href="mailto:i@nybot.de">i@nybot.de</a> for inquiries or to get in touch.</p>
+      <p>Thank you for your patience and support!</p>
+      <p>This website was created using <span class="marquee-container"><span class="marquee-content">ChatGPT</span></span>.</p>
+      <p>Visit the owner's website: <a href="https://nih.ar" target="_blank">https://nih.ar</a></p>
+      <p class="fun-text">Having fun exploring this under-construction site? Stay tuned for more!</p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 NYBOT.DE. All rights reserved.</p>
+  </footer>
 </body>
 </html>
