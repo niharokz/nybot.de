@@ -1,5 +1,4 @@
 # The Docker image that will be used to build your app
-image: linux
 pages:
   stage: deploy
   script:
@@ -10,4 +9,4 @@ pages:
     paths:
     - public
   only:
-  - master
+  - main
