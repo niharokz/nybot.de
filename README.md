@@ -1,4 +1,6 @@
 # nybot.de
 
+NOT YOUR BEST ONLINE TECHNOLOGY
 
-WIP
+This site is created via AI. More contents will be added soon.
+
