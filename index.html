@@ -1,101 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nybot.de</title>
-  <link rel="shortcut icon" href="nybot.ico" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      background: #000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 1600 900'%3E%3Cpath d='M782.3 141.9l3.9 7.4 7.9-1.2-3.3 7.6 5.3 6.4-7.1 3.7.6 8-7-4.4-7 4.4.6-8-7.1-3.7 5.3-6.4-3.3-7.6 7.9 1.2z' fill='%23fff'/%3E%3C/svg%3E") repeat;
-      color: #ffd700;
-      line-height: 1.6;
-      text-align: center;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nybot.de | AI Insights Hub</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    .container {
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-      color: #8b0000;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      border-bottom: 2px solid #ffd700;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
 
-    footer {
-      background-color: #000080;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
 
-    a {
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px dashed #ffd700;
-    }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
 
-    .marquee-container {
-      overflow: hidden;
-      white-space: nowrap;
-      margin-top: 20px;
-    }
+        nav a:hover {
+            color: #66c2ff;
+        }
 
-    .marquee-content {
-      display: inline-block;
-      animation: marquee 15s linear infinite;
-      color: #00ff00;
-    }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
 
-    @keyframes marquee {
-      from { transform: translateX(100%); }
-      to { transform: translateX(-100%); }
-    }
+        section h2 {
+            color: #333;
+        }
 
-    .expanded-content {
-      padding: 20px;
-      text-align: left;
-    }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
 
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(-20px); }
-      60% { transform: translateY(-10px); }
-    }
+        @media (max-width: 768px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
 
-    .fun-text {
-      animation: bounce 3s infinite;
-    }
-  </style>
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>NYBOT.DE</h1>
-    <div class="expanded-content">
-      <p>Welcome to our website!</p>
-      <p>We are currently working hard to bring you an amazing online experience. The future of web development holds exciting possibilities - from improved user experiences to innovative technologies like AI and AR making their way into web applications.</p>
-      <p>Our goal is to create a platform that embraces technological advancements and focuses on accessibility and inclusivity for all users.</p>
-      <p>Contact us at <a href="mailto:i@nybot.de">i@nybot.de</a> for inquiries or to get in touch.</p>
-      <p>Thank you for your patience and support!</p>
-      <p>This website was created using <span class="marquee-container"><span class="marquee-content">ChatGPT</span></span>.</p>
-      <p>Visit the owner's website: <a href="https://nih.ar" target="_blank">https://nih.ar</a></p>
-      <p class="fun-text">Having fun exploring this under-construction site? Stay tuned for more!</p>
-    </div>
-  </div>
-  <footer>
-    <p>&copy; 2024 NYBOT.DE. All rights reserved.</p>
-  </footer>
+    <header>
+        <h1>NYBOT DE</h1>
+        <p>Your source for the latest in artificial intelligence</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#learn">Learn About AI</a>
+        <a href="#explore">Explore AI Applications</a>
+        <a href="#update">Stay Updated</a>
+        <a href="#community">Community</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to AI Insights Hub</h2>
+        <p>Explore the fascinating world of artificial intelligence and stay updated with the latest trends and breakthroughs.</p>
+    </section>
+
+    <section id="learn">
+        <h2>Learn About AI</h2>
+        <p>Artificial Intelligence (AI) is the simulation of human intelligence in machines. It involves the use of algorithms to perform tasks that typically require human intelligence.</p>
+        <p><strong>Types of AI:</strong> There are two main types of AI: Narrow AI (Weak AI) and General AI (Strong AI). Narrow AI is designed to perform a specific task, while General AI has the ability to understand, learn, and apply knowledge across various domains.</p>
+        <p><strong>AI Technologies:</strong> Machine Learning, Natural Language Processing (NLP), and Computer Vision are some of the key technologies driving advancements in AI.</p>
+    </section>
+
+    <section id="explore">
+        <h2>Explore AI Applications</h2>
+        <p><strong>Industry Applications:</strong> AI is revolutionizing industries such as healthcare (diagnosis and personalized medicine), finance (fraud detection and algorithmic trading), and education (personalized learning).</p>
+        <p><strong>Everyday AI:</strong> Experience AI in your daily life through virtual assistants like Siri and Alexa, recommendation systems on streaming platforms, and smart home devices that adapt to your preferences.</p>
+    </section>
+
+    <section id="update">
+        <h2>Stay Updated</h2>
+        <p><strong>Blog/Articles:</strong> Read our insightful articles and blog posts covering the latest trends, ethical considerations, and real-world applications of AI.</p>
+        <p><strong>News Section:</strong> Stay informed with our curated news feed, providing you with the most recent developments in the field of artificial intelligence.</p>
+    </section>
+
+    <section id="community">
+        <h2>Community and Engagement</h2>
+        <p><strong>Forums/Discussion Boards:</strong> Join our community forums to engage with AI enthusiasts, ask questions, and share your insights.</p>
+        <p><strong>Events and Webinars:</strong> Participate in live webinars, conferences, and events to connect with experts and stay at the forefront of AI knowledge.</p>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p><strong>Books and Research Papers:</strong> Explore our recommended readings, including books for beginners and research papers for those seeking in-depth knowledge.</p>
+        <p><strong>Online Courses:</strong> Enhance your skills with our curated list of online courses and tutorials covering various aspects of AI.</p>
+        <p><strong>Tools and Frameworks:</strong> Discover popular AI tools and frameworks to kickstart your projects and experiments.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Feedback Form:</strong> We value your feedback! Use our contact form to share your thoughts, ask questions, or suggest topics for future content.</p>
+        <p><strong>Social Media Links:</strong> Connect with us on social media to stay updated on the latest AI news and engage with our growing community.</p>
+    </section>
+
+    <footer>
+        <p>Privacy Policy and Terms of Use | Follow us on social media</p>
+    </footer>
 </body>
 </html>
+
