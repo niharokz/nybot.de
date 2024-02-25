@@ -1,0 +1,16 @@
+Picnik,https://www.picnik.com/
+RediffMail,https://mail.rediff.com/cgi-bin/login.cgi
+Hubspot,https://www.hubspot.com/
+Buzzfeed,https://www.buzzfeed.com/
+Skype,https://www.skype.com/en/
+Aol,https://www.aol.com/
+Ask,https://www.ask.com/
+Mashable,https://me.mashable.com/
+Orkut,https:/orkut.com/
+Google+,https://en.wikipedia.org/wiki/Google+
+Stumbleupon,https://www.stumbleupon.com/
+Myspace,https://myspace.com/
+Napster,https://www.napster.com/us
+Friendster,https://friendster.com/
+Hi5,https://hi5.com/
+goo.gl,https://en.wikipedia.org/wiki/Google_URL_Shortener
